@@ -21,7 +21,6 @@ from datetime import datetime
 
 extensions = [
     'otcdocstheme',
-    'otc_sphinx_directives'
 ]
 
 otcdocs_auto_name = False
@@ -32,10 +31,10 @@ otcdocs_repo_name = 'opentelekomcloud-docs/object-storage-service-3rd-party'
 # Those variables are required for edit/bug links
 
 # Those variables are needed for indexing into OpenSearch
-otcdocs_doc_environment = ''
-otcdocs_doc_link = ''
-otcdocs_doc_title = ''
-otcdocs_doc_type = ''
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/object-storage-service-3rd-party/python-sdk/'
+otcdocs_doc_title = 'Python SDK'
+otcdocs_doc_type = '3rd_party_sdk'
 otcdocs_service_category = 'storage'
 otcdocs_service_title = 'Object Storage Service 3rd Party'
 otcdocs_service_type = 'obs_3rd_party'
@@ -98,7 +97,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Object Storage Service 3rd Party - Service Based View"
+html_title = "Object Storage Service 3rd Party - Python SDK"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -111,7 +110,12 @@ templates_path = ['_templates']
 html_copy_source = False
 
 # -- Options for PDF output --------------------------------------------------
-latex_documents = []
+latex_documents = [
+    ('index',
+     'obs_3rd_party-3rd_party_sdk.tex',
+    u'Object Storage Service 3rd Party - Python SDK',
+     u'OpenTelekomCloud', 'manual'),
+]
 
 # Get the Git commit values for last updated timestamp on each page
 repo = Repo(search_parent_directories=True)
