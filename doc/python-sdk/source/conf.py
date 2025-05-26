@@ -34,7 +34,7 @@ otcdocs_repo_name = 'opentelekomcloud-docs/object-storage-service-3rd-party'
 otcdocs_doc_environment = 'public'
 otcdocs_doc_link = '/object-storage-service-3rd-party/python-sdk/'
 otcdocs_doc_title = 'Python SDK'
-otcdocs_doc_type = '3rd_party_sdk'
+otcdocs_doc_type = 'python-sdk'
 otcdocs_service_category = 'storage'
 otcdocs_service_title = 'Object Storage Service 3rd Party'
 otcdocs_service_type = 'obs_3rd_party'
@@ -112,7 +112,7 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'obs_3rd_party-3rd_party_sdk.tex',
+     'obs_3rd_party-python-sdk.tex',
     u'Object Storage Service 3rd Party - Python SDK',
      u'OpenTelekomCloud', 'manual'),
 ]
