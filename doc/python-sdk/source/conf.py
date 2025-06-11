@@ -110,7 +110,7 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'obs_3rd_party-3rd_party_sdk.tex',
+     'obs_3rd_party-python-sdk.tex',
     u'Object Storage Service 3rd Party - Python SDK',
      u'OpenTelekomCloud', 'manual'),
 ]
