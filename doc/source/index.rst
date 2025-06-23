@@ -9,4 +9,4 @@ Object Storage Service (OBS) 3rd Party SDKs
    .. service_card::
       :environment: internal
       :service_type: obs_3rd_party
-      :3rd_party_sdk: The 3rd party SDK for python language
+      :python-sdk: The 3rd party SDK for python language
