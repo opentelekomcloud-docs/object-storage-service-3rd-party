@@ -17,17 +17,7 @@ Downloading OBS SDK for Go
 Installing OBS SDK for Go
 -------------------------
 
-You can use the methods listed in :ref:`Table 1 <obs_23_0001__table6377143115452>` to install OBS SDK for Go.
-
-.. _obs_23_0001__table6377143115452:
-
-.. table:: **Table 1** Methods of installing OBS SDK for Go
-
-   +-----+-------------------------------------------------------------------------+
-   | No. | Method                                                                  |
-   +=====+=========================================================================+
-   | 1   | Download an installation package and use GoLand to create a go project. |
-   +-----+-------------------------------------------------------------------------+
+OBS SDK for Go can be installed in the following ways:
 
 Downloading a Go SDK and Using GoLand to Compile It
 ---------------------------------------------------
