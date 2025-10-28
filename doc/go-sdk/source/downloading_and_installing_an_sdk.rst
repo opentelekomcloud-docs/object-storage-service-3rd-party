@@ -14,11 +14,6 @@ Downloading OBS SDK for Go
 
 -  `Latest version of OBS SDK for Go <https://github.com/opentelekomcloud-community/obs-go-sdk>`__
 
-Installing OBS SDK for Go
--------------------------
-
-OBS SDK for Go can be installed in the following ways:
-
 Downloading a Go SDK and Using GoLand to Compile It
 ---------------------------------------------------
 
