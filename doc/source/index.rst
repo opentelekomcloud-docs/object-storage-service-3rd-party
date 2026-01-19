@@ -14,3 +14,4 @@ Object Storage Service (OBS) 3rd Party SDKs
       :c-sdk: The 3rd party SDK for C language
       :go-sdk: The 3rd party SDK for Go language
       :nodejs-sdk: The 3rd party SDK for Node.js
+      :dotnet-sdk: The 3rd party SDK for .NET
