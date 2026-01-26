@@ -1,0 +1,28 @@
+:original_name: obs_25_0108.html
+
+.. _obs_25_0108:
+
+Creating a Bucket
+=================
+
+A bucket is a global namespace of OBS and is a data container. It functions as a root directory of a file system and can store objects. The following code shows how to create a bucket:
+
+.. code-block::
+
+   CreateBucketRequest request = new CreateBucketRequest();
+   request.BucketName = "bucketname";
+   client.CreateBucket(request);
+
+.. note::
+
+   -  Bucket names are globally unique. Ensure that the bucket you create is named differently from any other bucket.
+   -  A bucket name must comply with the following rules:
+
+      -  Contains 3 to 63 characters, chosen from lowercase letters, digits, hyphens (-), and periods (.), and starts with a digit or letter.
+      -  Cannot be an IP address or similar.
+      -  Cannot start or end with a hyphen (-) or period (.)
+      -  Cannot contain two consecutive periods (.), for example, **my..bucket**.
+      -  Cannot contain periods (.) and hyphens (-) adjacent to each other, for example, **my-.bucket** or **my.-bucket**.
+
+   -  If you create buckets of the same name, no error will be reported and the bucket properties comply with those set in the first creation request.
+   -  For more information, see :ref:`Creating a Bucket <obs_25_0301>`.
